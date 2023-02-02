@@ -40,7 +40,6 @@ Refer to the documents folder for a brief documentation on how my projects were 
 
 The projects from 1. to 11. were coded in C in a linux enviroment with the use of the software STM32CubeMX to create the STM32 framework with a makefile. The projects from 12. to were made in bare-metal in linux as well, which also uses a makefile for compilation. To deploy the code, enter the designated project and enter "make -j 8". Afterwards copy the "name_of_project".bin file in the newly made build folder to your STM32 board.  
 Example: 
-<<<<<<< HEAD
 -  "cd blinky"
 -  "make"
 -  "cp build/blinky.bin /media/mrmr/NODE_L432KC" where blinky is the desired project and mrmr is the name of your computer(linux).
@@ -50,4 +49,3 @@ cd blinky
 make
 cp build/blinky.bin /media/mrmr/NODE_L432KC // where blinky is the desired project and mrmr is the name of your computer.
 ```
->>>>>>> 491877750fde9d4af726c03834503a3b33a92ba0
